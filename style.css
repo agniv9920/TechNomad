@@ -1,0 +1,529 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.center{
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.para {
+  text-align: left;
+  padding: 20px;
+}
+
+.left{
+  text-align: left;
+  padding: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  background-color: floralwhite;
+}
+.wrapper{
+  width: 1170px;
+  margin: auto;
+}
+header{
+  background-color: 
+}
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area a{
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 20px;
+}
+.nav-area a:hover{
+  color: red;
+  border: none;
+}
+.logo img{
+  width: 150px;
+  float: left;
+  height: 150px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+  margin-top: auto;
+}
+#first{
+  font-size: 25px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para{
+  font-size: 25px;
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img1{
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 150px;
+  margin-right: 40px;
+}
+#img2{
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 850px;
+  margin-right: 40px;
+}
+#img3{
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 150px;
+  margin-right: 40px;
+}
+#img4{
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 850px;
+  margin-right: 40px;
+}
+#img5{
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 150px;
+  margin-right: 40px;
+}
+.sites{
+  width: 1170px;
+  margin: auto;
+}
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 20px
+  }
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 25px;
+}
+
+/* Clear floats after image containers */
+.row {
+  content: "";
+  clear: both;
+  display: table;
+  height: 100%
+}
+#second{
+  font-size: 25px;
+  color: black;
+  font-family: cursive;
+}
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50px;
+  padding-bottom: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+  display: inline-block;
+  background: #171515;
+  color: white;
+  
+}
+
+.fa-twitter {
+  display: inline-block;
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  display: inline-block;
+  background: #d6249f;
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+#img11{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img22{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img13{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img14{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img15{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img16{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img17{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img18{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img19{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img20{
+  border-radius: 20px;
+  padding: 5px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 70%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(233,229,148,1) 100%);
+
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+#img21{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img22{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img23{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img24{
+  border-radius: 20px;
+  padding: 5px;
+}
+#img25{
+  border-radius: 20px;
+  padding: 5px;
+}
+.btn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: flexbox;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 20px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.button1 {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 7%;
+  margin-left: 1350px;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  display: grid;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: center;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.right{
+  justify-content: right;
+  padding: 10px;
+}
+.gallery{
+  margin: 10px 50px;
+}
+.gallery img{
+  transition: 2s;
+  padding: 15px;
+  width: 300px;
+}
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
